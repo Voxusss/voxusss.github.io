@@ -30,6 +30,7 @@ import amu from "./company/amu.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ataw from "./ataw.png";
 
 export {
   logo,
@@ -57,6 +58,7 @@ export {
   shopify,
   starbucks,
   amu,
+  ataw,
   tesla,
   carrent,
   jobit,

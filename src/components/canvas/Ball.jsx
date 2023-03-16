@@ -26,6 +26,7 @@ const Ball = (props) => {
           map={decal}
         />
       </mesh>
+      
     </Float>
   )
 }

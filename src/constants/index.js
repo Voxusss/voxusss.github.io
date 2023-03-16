@@ -21,6 +21,7 @@ import {
     tesla,
     shopify,
     carrent,
+    ataw,
     jobit,
     tripguide,
     threejs,
@@ -82,10 +83,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -94,28 +91,29 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
+    {
+      title: "International Baccalaureate",
+      company_name: "Lycée International Georges Duby",
+      icon: amu,
+      iconBg: "#383E56",
+      date: "September 2019 - September 2022",
+      points: [
+        "Applied mathematical principles to solve problems in various contexts, such as physics, engineering, and finance.",
+        "Attained a Cambridge Advanced Diploma in English, showcasing advanced proficiency in the English language.",
+        "Acquired foundational knowledge in computer science and computer architecture through formal education and self-study.",
+        "Demonstrated exceptional aptitude and proficiency in mathematics and computer science at this level, earning perfect grades of 20/20 in both mathematics and computer science.",
+      ],
+    },
     {
       title: "B. A in Computer Science",
       company_name: "Aix-Marseille University",
@@ -123,18 +121,18 @@ import {
       iconBg: "#383E56",
       date: "September 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Identify, articulate and implement the most appropriate theoretical and technical tools of computer science to solve complex problems.",
+        "Model a problem, design technical and/or algorithmic solutions, implement them and evaluate them against criteria of efficiency, reliability and quality of design.",
+        "Use project management tools and techniques in computer science: development environment, version control, production automation and project management and implementation methods.",
+        "Utilizing Python and Java programming languages as primary tools, with proficiency in the syntax and semantics of both languages, including data types, control structures, functions, and object-oriented programming concepts, and employing software development best practices, such as code organization, documentation, and testing, to produce high-quality software projects",
       ],
     },
     {
-      title: "Excellency Internship",
+      title: "Excellency Internship (Prolly)",
       company_name: "Aix-Marseille University | LIS Laboratory",
       icon: amu,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,32 +140,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -199,66 +172,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based portfolio that showcases my skills and projects used as a storefront for potentials hirers. Built using React.js, Tailwind CSS, Three.js and Vite.js.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "vite",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Voxusss/Portfolio",
     },
     {
-      name: "Job IT",
+      name: "VHTools",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An all-in-one solution for botting raffles and giveaways, including an outlook email generator supporting Captchas, address generator, phone number generator, and a tracking / analytics tool.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "eel",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Voxusss/VHTools",
     },
     {
-      name: "Trip Guide",
+      name: "aToolaWeek",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A collection of tools that I have created over the course of a week (maybe more, maybe less) with the overall intent of showcasing algorithmical skills. ",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "git",
+          color: "black-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ataw,
       source_code_link: "https://github.com/",
     },
   ];
