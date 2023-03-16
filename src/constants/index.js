@@ -22,6 +22,7 @@ import {
     shopify,
     carrent,
     ataw,
+    vh,
     jobit,
     tripguide,
     threejs,
@@ -146,26 +147,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      "I was blown away by how skilled and creative you are when it comes to web development. Your ability to turn complex ideas into beautiful, functional websites is truly impressive.",
+      name: "Théo Michel",
+      designation: "Student",
+      company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      "Working with you on our group project was a pleasure. Your attention to detail and dedication to making sure everything worked perfectly really showed me how passionate you are about your craft.",
+      name: "Panizza Anthony",
+      designation: "Student",
+      company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+      "Thanks to your expertise, our class project went above and beyond what we thought was possible. Your coding skills are top-notch, and your willingness to help others understand complex concepts is a true asset to our class.",
+      name: "Czornomaz Dimitri",
+      designation: "Student",
+      company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -214,7 +215,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: vh,
       source_code_link: "https://github.com/Voxusss/VHTools",
     },
     {
