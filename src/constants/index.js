@@ -127,28 +127,14 @@ import {
         "Use project management tools and techniques in computer science: development environment, version control, production automation and project management and implementation methods.",
         "Utilizing Python and Java programming languages as primary tools, with proficiency in the syntax and semantics of both languages, including data types, control structures, functions, and object-oriented programming concepts, and employing software development best practices, such as code organization, documentation, and testing, to produce high-quality software projects",
       ],
-    },
-    {
-      title: "Excellency Internship (Prolly)",
-      company_name: "Aix-Marseille University | LIS Laboratory",
-      icon: amu,
-      iconBg: "#E6DEDD",
-      date: "June 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    
+    }, 
   ];
   
   const testimonials = [
     {
       testimonial:
       "I was blown away by how skilled and creative you are when it comes to web development. Your ability to turn complex ideas into beautiful, functional websites is truly impressive.",
-      name: "Théo Michel",
+      name: "Théo",
       designation: "Student",
       company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -156,7 +142,7 @@ import {
     {
       testimonial:
       "Working with you on our group project was a pleasure. Your attention to detail and dedication to making sure everything worked perfectly really showed me how passionate you are about your craft.",
-      name: "Anthony Panizza",
+      name: "Anthony",
       designation: "Student",
       company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -164,7 +150,7 @@ import {
     {
       testimonial:
       "Thanks to your expertise, our class project went above and beyond what we thought was possible. And your willingness to help others understand complex concepts is a true asset to our class.",
-      name: "Dimitri Czornomaz",
+      name: "Dimitri",
       designation: "Student",
       company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
