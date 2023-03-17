@@ -14,8 +14,37 @@ const Contact = () => {
     message: '',
   })
   const [isSending, setIsSending] = useState(false);
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({...form, [name]: value})
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setIsSending(true)
+    emailjs.send(
+      'service_fag7wbg', 
+      'template_rbmbtrz',
+      {
+        from_name: form.name,
+        to_name: 'Antoine',
+        from_email: form.email,
+        to_email: 'antoinerichardicontact@gmail.com',
+        message: form.message
+      },
+      'oh1sqkFe8UyGUC5cU'
+    ).then(() => {
+      setIsSending(false)
+      alert('Message sent successfully! I will get back to you as soon as possible.')
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }), (error) => {
+      setIsSending(false)
+      alert('An error occured while sending the message. Please try again later.')
+    }
+  }
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div

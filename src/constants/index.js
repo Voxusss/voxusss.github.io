@@ -156,15 +156,15 @@ import {
     {
       testimonial:
       "Working with you on our group project was a pleasure. Your attention to detail and dedication to making sure everything worked perfectly really showed me how passionate you are about your craft.",
-      name: "Panizza Anthony",
+      name: "Anthony Panizza",
       designation: "Student",
       company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-      "Thanks to your expertise, our class project went above and beyond what we thought was possible. Your coding skills are top-notch, and your willingness to help others understand complex concepts is a true asset to our class.",
-      name: "Czornomaz Dimitri",
+      "Thanks to your expertise, our class project went above and beyond what we thought was possible. And your willingness to help others understand complex concepts is a true asset to our class.",
+      name: "Dimitri Czornomaz",
       designation: "Student",
       company: "Aix-Marseille University",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
