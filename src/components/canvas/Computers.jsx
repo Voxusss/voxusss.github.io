@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 import CanvasLoader from '../Loader'
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./mangrove/scene.gltf')
+  const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
       <hemisphereLight intensity={1} groundColor='white' />
@@ -18,9 +18,9 @@ const Computers = ({ isMobile }) => {
       />
       <primitive 
       object={computer.scene}
-      scale={isMobile ? 0.2 : 1.1}
-      position={[0, -5, 0]}
-      rotation={[-0.01, 1, 0]}
+      scale={isMobile ? 0.7 : 0.75}
+      position={[0, -2.5, -1.5]}
+      rotation={[0, -0.2, -0.1]}
       />
     </mesh>
   )
@@ -39,7 +39,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{position: [20,3,0], fov:60}}
+      camera={{position: [20,3,5], fov:25}}
       gl={{preserveDrawingBuffer:true}}
     > 
       <Suspense fallback={<CanvasLoader/>}>

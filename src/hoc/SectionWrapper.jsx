@@ -11,7 +11,11 @@ function HOC() {
         whileInView="show"
         viewport={{once:true, amount:0.25}}
         className={`${styles.paddingX} max-w-7xl mx-auto my-10`}
+        id={idName}
         >
+            <span className='hash-span' id={idName}>
+          &nbsp;
+        </span>
             <Component/>
         </motion.section>
     )
