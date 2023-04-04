@@ -32,6 +32,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ataw from "./ataw.png";
+import earth2 from "./earth2.jpg";
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   tesla,
   carrent,
   jobit,
+  earth2,
   tripguide,
 };

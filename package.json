@@ -23,6 +23,7 @@
     "react-parallax-tilt": "^1.7.116",
     "react-router-dom": "^6.9.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "save-dev": "^0.0.1-security",
     "three": "^0.150.1"
   },
   "devDependencies": {

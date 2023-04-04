@@ -23,6 +23,7 @@ import {
     carrent,
     ataw,
     vh,
+    earth2,
     jobit,
     tripguide,
     threejs,
@@ -49,16 +50,8 @@ import {
       icon: web,
     },
     {
-      title: "Mobile Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Software Architect",
-      icon: creator,
     },
   ];
   
@@ -207,7 +200,7 @@ import {
     {
       name: "aToolaWeek",
       description:
-        "A collection of tools that I have created over the course of a week (maybe more, maybe less) with the overall intent of showcasing algorithmical skills. ",
+        "A collection of tools that I have created over the course of a week (maybe more, maybe less) with the overall intent of showcasing algorithmical skills. (PRIVATE REPO FOR NOW)",
       tags: [
         {
           name: "python",
@@ -220,6 +213,30 @@ import {
       ],
       image: ataw,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Earth2 BuyBot",
+      description:
+        "Scraping bot that automatically purchases cheaply listed items from the Earth2 website, scraping all listings (+100,000) in a few seconds.  A lot of competition on it so had to be pretty performant. Made over $2k from it :) (PRIVATE REPO)",
+      tags: [
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "requests",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cookiejar",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "threading",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: earth2,
     },
   ];
   
