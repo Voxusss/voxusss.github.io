@@ -1,21 +1,38 @@
 import {Suspense, useEffect, useState} from 'react'
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
+import { Canvas, useFrame } from '@react-three/fiber'
+import { OrbitControls, PerspectiveCamera, Preload, useGLTF } from '@react-three/drei'
 import CanvasLoader from '../Loader'
+import * as THREE from 'three'
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./fireredroom/scene.gltf')
+  const model = useGLTF('./spacecamp2/untitled.glb')
+  let mixer
+  if (model.animations.length) {
+      mixer = new THREE.AnimationMixer(model.scene);
+      model.animations.forEach(clip => {
+          const action = mixer.clipAction(clip)
+          action.play();
+      });
+  }
+
+  useFrame((state, delta) => {
+      mixer?.update(delta)
+      console.log()
+  })
   return (
     <mesh>
+      <hemisphereLight intensity={0.6} />
+      <pointLight position={[0.5, -0.5, -4.5]} intensity={2} color={'#ff8e24'} />
       <primitive 
-      object={computer.scene}
-      scale={isMobile ? 0.7 : 2.2}
-      position={[0, -3.5, 0]}
-      rotation={[0.2, 0, 0]}
+      object={model.scene}
+      scale={isMobile ? 1 : 2.2}
+      position={isMobile ? [0.6, -0.6, -5] : [2, -0.5, -5]}
+      rotation={[0, -1, -0.1]}
       />
     </mesh>
   )
 }
+const camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 0.1, 1000 );
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -29,11 +46,13 @@ const ComputersCanvas = () => {
   
   return(
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       shadows
-      camera={{position: [20,20,20], fov:50}}
+      camera={camera}
       gl={{preserveDrawingBuffer:true}}
-
+      onCreated={state => {
+        console.log(camera.position)
+      }}
     > 
       <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls 
