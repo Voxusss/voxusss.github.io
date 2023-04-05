@@ -2,6 +2,8 @@ import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
+  const isLoaded = progress === 100 ? true : false;
+  
   return (
     <Html
       as='div'
@@ -19,7 +21,8 @@ const CanvasLoader = () => {
           fontSize: 14,
           color: "#F1F1F1",
           fontWeight: 800,
-          marginTop: 40,
+          marginTop: 700,
+          marginLeft: 500,
         }}
       >
         {progress.toFixed(2)}%

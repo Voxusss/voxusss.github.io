@@ -2,6 +2,7 @@ import {Suspense, useEffect, useState} from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, PerspectiveCamera, Preload, useGLTF } from '@react-three/drei'
 import CanvasLoader from '../Loader'
+import App from '../../App'
 import * as THREE from 'three'
 
 const Computers = ({ isMobile }) => {
@@ -45,6 +46,7 @@ const ComputersCanvas = () => {
   }, []);
   
   return(
+    
     <Canvas
       frameloop='always'
       shadows
@@ -54,7 +56,6 @@ const ComputersCanvas = () => {
         console.log(camera.position)
       }}
     > 
-      <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls 
           enableZoom={false}
           minAzimuthAngle={-Math.PI/9}
@@ -63,7 +64,6 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI/2}
         />
         <Computers isMobile={isMobile}/>
-      </Suspense>
       <Preload all />
     </Canvas>
   )

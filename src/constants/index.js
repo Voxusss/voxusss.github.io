@@ -212,7 +212,6 @@ import {
         },
       ],
       image: ataw,
-      source_code_link: "https://github.com/",
     },
     {
       name: "Earth2 BuyBot",
