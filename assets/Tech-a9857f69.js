@@ -1,0 +1,1 @@
+import{a as r}from"./index-a8fc1fc3.js";import"./Computers-0f1a6082.js";import"./Preload-4d1b846e.js";import{S as t}from"./SectionWrapper-0893733e.js";import"./styles-7b18f59c.js";import"./motion-e6102c49.js";const e=()=>r("div",{className:"flex flex-row flex-wrap justify-center gap-10"}),c=t(e,"");export{c as default};

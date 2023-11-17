@@ -1,4 +1,4 @@
-import{r as De,b as sx}from"./index-a121e25b.js";/**
+import{r as De,b as sx}from"./index-a8fc1fc3.js";/**
  * @license
  * Copyright 2010-2023 Three.js Authors
  * SPDX-License-Identifier: MIT
