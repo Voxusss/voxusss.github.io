@@ -23,6 +23,8 @@ import {
     carrent,
     ataw,
     vh,
+    lis,
+    duby,
     earth2,
     jobit,
     tripguide,
@@ -98,13 +100,11 @@ import {
     {
       title: "International Baccalaureate",
       company_name: "Lycée International Georges Duby",
-      icon: amu,
-      iconBg: "#383E56",
+      icon: duby,
+      iconBg: "#301c10",
       date: "September 2019 - September 2022",
       points: [
-        "Applied mathematical principles to solve problems in various contexts, such as physics, engineering, and finance.",
-        "Attained a Cambridge Advanced Diploma in English, showcasing advanced proficiency in the English language.",
-        "Acquired foundational knowledge in computer science and computer architecture through formal education and self-study.",
+        "Attained a Cambridge Advanced Diploma in English.",
         "Demonstrated exceptional aptitude and proficiency in mathematics and computer science at this level, earning perfect grades of 20/20 in both mathematics and computer science.",
       ],
     },
@@ -112,13 +112,25 @@ import {
       title: "B. A in Computer Science",
       company_name: "Aix-Marseille University",
       icon: amu,
-      iconBg: "#383E56",
+      iconBg: "#301c10",
       date: "September 2022 - Present",
       points: [
-        "Identify, articulate and implement the most appropriate theoretical and technical tools of computer science to solve complex problems.",
-        "Model a problem, design technical and/or algorithmic solutions, implement them and evaluate them against criteria of efficiency, reliability and quality of design.",
-        "Use project management tools and techniques in computer science: development environment, version control, production automation and project management and implementation methods.",
-        "Utilizing Python and Java programming languages as primary tools, with proficiency in the syntax and semantics of both languages, including data types, control structures, functions, and object-oriented programming concepts, and employing software development best practices, such as code organization, documentation, and testing, to produce high-quality software projects",
+        "Proficiency in C, Java, Python, SQL, HTML, CSS, JS & Assembly building projects from algorithms to applications.",
+        "Led CS projects applying Project Management principles, collaborating effectively in diverse teams.",
+        "Acquired a deep understanding of data structures, algorithms, databases conception, systems and architecture & complexity analysis.",
+      ],
+    }, 
+    {
+      title: "Research Intern",
+      company_name: "CNRS | LIS Laboratory",
+      icon: lis,
+      iconBg: "#301c10",
+      date: "September 2022 - Present",
+      points: [
+        "Technical proficiency in the ability to code and implement BFT systems in Python",
+        "Deep understanding of BFT systems and expertise in the principles and protocols of BFT systems, including Tendermint's consensus mechanism.",
+        "Conducted independent research on specific aspects of BFT systems, diving deep into research papers and other academic resources to understand the latest developments in the field.", 
+        "Effectively communicated research findings to technical and non-technical audiences through internal reports and presentations followed by a final conference"
       ],
     }, 
   ];
@@ -196,22 +208,6 @@ import {
       ],
       image: vh,
       source_code_link: "https://github.com/Voxusss/VHTools",
-    },
-    {
-      name: "aToolaWeek",
-      description:
-        "A collection of tools that I have created over the course of a week (maybe more, maybe less) with the overall intent of showcasing algorithmical skills. (PRIVATE REPO FOR NOW)",
-      tags: [
-        {
-          name: "python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "git",
-          color: "black-text-gradient",
-        },
-      ],
-      image: ataw,
     },
     {
       name: "Earth2 BuyBot",

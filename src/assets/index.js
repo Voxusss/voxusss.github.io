@@ -27,6 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import amu from "./company/amu.png";
 import vh from "./vh.png";
+import lis from "./company/lis.png";
+import duby from "./company/duby.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,6 +64,8 @@ export {
   amu,
   ataw,
   vh,
+  lis,
+  duby,
   tesla,
   carrent,
   jobit,
