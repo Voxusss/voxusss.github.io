@@ -29,6 +29,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    pitchside,
   } from "../assets";
   
   export const navLinks = [
@@ -232,6 +233,23 @@ import {
         },
       ],
       image: earth2,
+    },
+    {
+      name: "PitchsidePro",
+      description:
+        "Web app  that allows user to see advanced and in-depth statistics about football matches and teams. Built using Flask and Tailwind CSS.",
+      tags: [
+        {
+          name: "flask",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: pitchside,
+      web_link: "http://51.20.87.110/leagues",
     },
   ];
   

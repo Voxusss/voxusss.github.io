@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import web_link_img from "./web_link_img.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -35,6 +36,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ataw from "./ataw.png";
 import earth2 from "./earth2.jpg";
+import pitchside from "./pitchside.png";
 
 export {
   logo,
@@ -43,6 +45,7 @@ export {
   mobile,
   web,
   github,
+  web_link_img,
   menu,
   close,
   css,
@@ -71,4 +74,5 @@ export {
   jobit,
   earth2,
   tripguide,
+  pitchside,
 };
