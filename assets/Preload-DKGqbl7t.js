@@ -1,4 +1,4 @@
-import{r as De,b as Wg}from"./index-D5B6-6vl.js";/**
+import{r as De,b as Wg}from"./index-C0lVVnJ-.js";/**
  * @license
  * Copyright 2010-2023 Three.js Authors
  * SPDX-License-Identifier: MIT
